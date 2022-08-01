@@ -3,7 +3,7 @@
 ![Qr Code Generator](./screenshot-light.webp)
 ![Qr Code Generator](./screenshot-dark.webp)
 
-This app generates QR Code based on the entered URL. It is also possible to customize and download the generated QR Code.
+This app generates Qr Code based on the entered URL. It is also possible to customize and download the generated Qr Code.
 
 This is my advanced solution of [Qr code component on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
@@ -32,11 +32,11 @@ This app generates Qr Code based on the url entered.
 Features: 
 - Light / dark mode theme switcher
 - Qr Code 'overwhelm.com' default on loading
-- Dynamically generating the QR Code as you type the URL
-- Dynamically update the color and background of the QR Code based on the customization input entered by the user
-- Dynamically update the customized image of the QR Code
-- Removes the custom image of the QR Code
-- You can download the `.png` of the generated QR Code
+- Dynamically generating the Qr Code as you type the URL
+- Dynamically update the color and background of the Qr Code based on the customization input entered by the user
+- Dynamically update the customized image of the Qr Code
+- Removes the custom image of the Qr Code
+- You can download the `.png` of the generated Qr Code
 
 ### Links
 
