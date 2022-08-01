@@ -10,6 +10,7 @@ function InputPicker({ id, label, customColor, handleQrCustom }) {
 			<input
 				id={id}
 				name={id}
+				aria-label={id}
 				type="button"
 				style={{ background: customColor }}
 				onClick={handleShowPicker}

@@ -11,11 +11,7 @@ function ThemeBtn() {
 		
 	return (
 		<>
-			<h3>
-				{theme &&
-					'light'
-				}
-			</h3> 
+			<h3 className={theme ? 'sr-only' : null}>light</h3> 
 
 			<input
 				id="toggle"
@@ -28,11 +24,7 @@ function ThemeBtn() {
 				<span className="toggle-label-bg"></span>
 			</label>
 
-			<h3>
-				{!theme && 
-					'dark'
-				}
-			</h3> 
+			<h3 className={!theme ? 'sr-only' : null}>dark</h3> 
 		</>
 	);
 }
