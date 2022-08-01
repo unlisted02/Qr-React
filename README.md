@@ -31,7 +31,7 @@ This app generates Qr Code based on the url entered.
 
 Features: 
 - Light / dark mode theme switcher
-- Qr Code 'overwhelm.com' default on loading
+- Qr Code 'travolgi.com' default on loading
 - Dynamically generating the Qr Code as you type the URL
 - Dynamically update the color and background of the Qr Code based on the customization input entered by the user
 - Dynamically update the customized image of the Qr Code
