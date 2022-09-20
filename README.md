@@ -5,8 +5,6 @@
 
 This app generates Qr Code based on the entered URL. It is also possible to customize and download the generated Qr Code.
 
-This is my advanced solution of [Qr code component on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -118,7 +116,6 @@ Please feel free to create an issue if you see a bug or something unexpected in 
 ## Author
 
 - Website - [travolgi](https://travolgi.com)
-- Frontend Mentor - [@travolgi](https://www.frontendmentor.io/profile/travolgi)
 - Behance portfolio - [@travolgi](https://www.behance.net/travolgi)
 
 Thanks by Travolgi 🚀🚀🚀
