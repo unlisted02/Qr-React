@@ -19,6 +19,7 @@ This app generates Qr Code based on the entered URL. It is also possible to cust
   - [Installation](#installation)
   - [Bugs](#bugs)
   - [Contributing](#contributing)
+- [License](#license)
 - [Author](#author)
 
 ## Overview
@@ -112,6 +113,9 @@ Please feel free to create an issue if you see a bug or something unexpected in 
 - Commit your Changes (`git commit -m 'Brief explanation of feature`')
 - Push to the Branch (`git push origin feature/yourFeature`)
 - Open a Pull Request
+
+## License 
+[MIT license](https://github.com/travolgi/qrcode-generator/blob/master/LICENSE)
 
 ## Author
 
