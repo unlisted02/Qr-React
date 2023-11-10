@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-function ThemeBtn() {
+export default function ThemeBtn() {
 	const [theme, setTheme] = useState(true);
 
 	useEffect(() => {
@@ -28,5 +28,3 @@ function ThemeBtn() {
 		</>
 	);
 }
-
-export default ThemeBtn;

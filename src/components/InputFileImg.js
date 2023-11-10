@@ -1,4 +1,4 @@
-function InputFileImg({ noImg, setNoImg, setCustomImg }) {
+export default function InputFileImg({ noImg, setNoImg, setCustomImg }) {
 	const handleImage = e => {
 		const reader = new FileReader();
 		reader.onload = () => {
@@ -33,5 +33,3 @@ function InputFileImg({ noImg, setNoImg, setCustomImg }) {
 		</>
 	);
 }
-
-export default InputFileImg;

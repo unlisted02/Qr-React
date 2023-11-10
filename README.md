@@ -1,16 +1,14 @@
 # Qr Code Generator with color theme switcher
 
-![Qr Code Generator](./screenshot-light.webp)
+This app generates Qr Code based on the entered URL. It is also possible to customize and download the generated Qr Code
+
 ![Qr Code Generator](./screenshot-dark.webp)
 
-This app generates Qr Code based on the entered URL. It is also possible to customize and download the generated Qr Code.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [About App](#about-app)
-  - [Links](#links)
-- [My process](#my-process)
+- [About App](#about-app)
+- [Process](#process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -20,15 +18,14 @@ This app generates Qr Code based on the entered URL. It is also possible to cust
   - [Bugs](#bugs)
   - [Contributing](#contributing)
 - [License](#license)
-- [Author](#author)
 
-## Overview
+## About App
 
-### About App
+This app generates Qr Code based on the url entered
 
-This app generates Qr Code based on the url entered.
+![Qr Code Generator](./screenshot-light.webp)
 
-Features: 
+Features:
 - Light / dark mode theme switcher
 - Qr Code 'travolgi.com' default on loading
 - Dynamically generating the Qr Code as you type the URL
@@ -37,12 +34,7 @@ Features:
 - Removes the custom image of the Qr Code
 - You can download the `.png` of the generated Qr Code
 
-### Links
-
-- Repository URL: [github](https://github.com/travolgi/qrcode-generator)
-- Live Site URL: [live site](https://travolgi.github.io/qrcode-generator)
-
-## My process
+## Process
 
 ### Built with
 
@@ -115,11 +107,4 @@ Please feel free to create an issue if you see a bug or something unexpected in 
 - Open a Pull Request
 
 ## License 
-[MIT license](https://github.com/travolgi/qrcode-generator/blob/master/LICENSE)
-
-## Author
-
-- Website - [travolgi](https://travolgi.com)
-- Behance portfolio - [@travolgi](https://www.behance.net/travolgi)
-
-Thanks by Travolgi 🚀🚀🚀
+[MIT license](https://github.com/travolgi/react-qrcode-generator/blob/master/LICENSE)

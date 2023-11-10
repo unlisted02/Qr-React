@@ -3,7 +3,7 @@ import ThemeBtn from './components/ThemeBtn';
 import FormQrCustom from './components/FormQrCustom';
 import QrCard from './components/QrCard';
 
-function App() {
+export default function App() {
 	const qrRef = useRef();
 
 	const [url, setUrl] = useState(''),
@@ -53,5 +53,3 @@ function App() {
 		</>
 	);
 }
-
-export default App;

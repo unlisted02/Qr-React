@@ -1,4 +1,4 @@
-function InputUrl({ url, setUrl, httpRgx }) {
+export default function InputUrl({ url, setUrl, httpRgx }) {
 	const handleUrl = e => setUrl(e.target.value),
 			handleClearUrl = () => setUrl('');
 	
@@ -29,5 +29,3 @@ function InputUrl({ url, setUrl, httpRgx }) {
 		</div>
 	);
 }
-
-export default InputUrl;

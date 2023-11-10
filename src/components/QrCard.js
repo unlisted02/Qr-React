@@ -1,6 +1,6 @@
 import QrCode from 'qrcode.react';
 
-function QrCard({ qrRef, url, bgColor, qrColor, customImg, noImg }) {
+export default function QrCard({ qrRef, url, bgColor, qrColor, customImg, noImg }) {
 	let imgCustom =  undefined;
 
 	noImg ?
@@ -36,5 +36,3 @@ function QrCard({ qrRef, url, bgColor, qrColor, customImg, noImg }) {
 		</article>
 	);
 }
-
-export default QrCard;

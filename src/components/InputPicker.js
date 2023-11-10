@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { SketchPicker } from 'react-color';
 
-function InputPicker({ id, label, customColor, handleQrCustom }) {
+export default function InputPicker({ id, label, customColor, handleQrCustom }) {
 	const [showPicker, setShowPicker] = useState(false),
 			handleShowPicker = ()=> setShowPicker(!showPicker);
 
@@ -27,5 +27,3 @@ function InputPicker({ id, label, customColor, handleQrCustom }) {
 		</div>
 	);
 }
-
-export default InputPicker;

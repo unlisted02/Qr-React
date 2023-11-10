@@ -3,7 +3,7 @@ import InputUrl from './InputUrl';
 import InputPicker from './InputPicker';
 import InputFileImg from './InputFileImg';
 
-function FormQrCustom({ qrRef, url, qrColor, qrBgColor, noImg, setUrl, setQrColor, setQrBgColor, setCustomImg, setNoImg, handleQrReset }) {
+export default function FormQrCustom({ qrRef, url, qrColor, qrBgColor, noImg, setUrl, setQrColor, setQrBgColor, setCustomImg, setNoImg, handleQrReset }) {
 	const httpRgx = /^https?:\/\//;
 
 	const [downloaded, setDownloaded] = useState(false);
@@ -76,5 +76,3 @@ function FormQrCustom({ qrRef, url, qrColor, qrBgColor, noImg, setUrl, setQrColo
 		</form>
 	);
 }
-
-export default FormQrCustom;
