@@ -79,11 +79,11 @@ If requirements above are not installed in your computer, you'll need to install
 
 - Clone the repository
   ```sh
-  git clone https://github.com/travolgi/qrcode-generator.git
+  git clone https://github.com/travolgi/reacr-qrcode-generator.git
   ```
 - Navigate to repository folder
   ```sh
-  cd qrcode-generator
+  cd react-qrcode-generator
   ```
 - Install npm packages
   ```sh
