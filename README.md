@@ -79,7 +79,7 @@ If requirements above are not installed in your computer, you'll need to install
 
 - Clone the repository
   ```sh
-  git clone https://github.com/travolgi/reacr-qrcode-generator.git
+  git clone https://github.com/travolgi/react-qrcode-generator.git
   ```
 - Navigate to repository folder
   ```sh
