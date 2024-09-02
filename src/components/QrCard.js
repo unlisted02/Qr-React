@@ -17,7 +17,7 @@ export default function QrCard({ qrRef, url, bgColor, qrColor, customImg, noImg 
 			
 				<QrCode
 					size={250}
-					value={url ? url : 'https://travolgi.com'}
+					value={url ? url : '#!'}
 					bgColor={bgColor}
 					fgColor={qrColor}
 					level='H'
@@ -31,7 +31,7 @@ export default function QrCard({ qrRef, url, bgColor, qrColor, customImg, noImg 
 				/>
 
 			</div>
-			<h2 className="word-wrap">{url ? url : 'travolgi.com'}</h2>
+			<h2 className="word-wrap">{url ? url : 'Unlisted'}</h2>
 			<p>Enter the URL of your site and create your custom Qr Code in a few seconds with a few clicks.</p>
 		</article>
 	);

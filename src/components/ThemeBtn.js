@@ -11,7 +11,7 @@ export default function ThemeBtn() {
 		
 	return (
 		<>
-			<h3 className={theme ? 'sr-only' : null}>light</h3> 
+			<h3 className={theme ? 'sr-only' : null}>Light</h3> 
 
 			<input
 				id="toggle"
@@ -24,7 +24,7 @@ export default function ThemeBtn() {
 				<span className="toggle-label-bg"></span>
 			</label>
 
-			<h3 className={!theme ? 'sr-only' : null}>dark</h3> 
+			<h3 className={!theme ? 'sr-only' : null}>Dark</h3> 
 		</>
 	);
 }

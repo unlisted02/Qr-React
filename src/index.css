@@ -1,8 +1,8 @@
 /*
  *	Project: Qr Code Generator using React js
  *	Version: 1.0.0
- *	Author: Travolgi
- *	Date: 30/07/2022
+ *	Author: Unlisted
+ *	Date: 1/08/2023
  */
 
 /** Reset **/
@@ -379,7 +379,7 @@ input:active {
 	width: 3.6rem;
 	height: 3.6rem;
 	border-radius:100%;
-	background-image: url('https://avatars.githubusercontent.com/u/105203357');
+	background-image: url("../public/shot.jpg");
 	background-size: 100%;
 	z-index: 99;
 }
