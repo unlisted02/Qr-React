@@ -27,7 +27,7 @@ This app generates Qr Code based on the url entered
 
 Features:
 - Light / dark mode theme switcher
-- Qr Code 'travolgi.com' default on loading
+- Qr Code 'Unlisted' default on loading
 - Dynamically generating the Qr Code as you type the URL
 - Dynamically update the color and background of the Qr Code based on the customization input entered by the user
 - Dynamically update the customized image of the Qr Code
@@ -79,7 +79,8 @@ If requirements above are not installed in your computer, you'll need to install
 
 - Clone the repository
   ```sh
-  git clone https://github.com/travolgi/react-qrcode-generator.git
+  git clone https://github.com/unlisted02/Qr-React.git
+  
   ```
 - Navigate to repository folder
   ```sh
@@ -106,5 +107,4 @@ Please feel free to create an issue if you see a bug or something unexpected in 
 - Push to the Branch (`git push origin feature/yourFeature`)
 - Open a Pull Request
 
-## License 
-[MIT license](https://github.com/travolgi/react-qrcode-generator/blob/master/LICENSE)
+
