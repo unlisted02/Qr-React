@@ -7,7 +7,7 @@ export default function QrCard({ qrRef, url, bgColor, qrColor, customImg, noImg 
 		imgCustom = null :
 		customImg ?
 			imgCustom = customImg :
-			imgCustom = './logo-apple-icon192.png';
+			imgCustom = './shot.jpg';
 
 	return (
 		<article className="card">
